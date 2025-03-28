@@ -6,13 +6,13 @@
 using Utils; //Library for using shaking
 ```
 ```csharp
-[SerializeField] private Transform objectTransform; //Shaking object
-[SerializeField] private ShakeType shakeType; //Type of shaking, rotation or position, or both position and rotation (ShakeType { Position, Rotation, PositionAndRotation })
-[SerializeField] Vector3 shakeValues = new Vector3(5, 5, 5); //Values for shaking
-[SerializeField] float shakeDuration = 1f; //Shaking time
-[SerializeField] int shakeCount = 10; //The number of fluctuations
-[SerializeField] private bool localVector; //use local transform values or global ones
-[SerializeField] bool smoothShake = true; //Smooth shaking or sharp
+[SerializeField] private Transform objectTransform;             //Shaking object
+[SerializeField] private ShakeType shakeType;                   //Type of shaking, rotation or position, or both position and rotation (ShakeType { Position, Rotation, PositionAndRotation })
+[SerializeField] Vector3 shakeValues = new Vector3(5, 5, 5);    //Values for shaking
+[SerializeField] float shakeDuration = 1f;                      //Shaking time
+[SerializeField] int shakeCount = 10;                           //The number of fluctuations
+[SerializeField] private bool localVector;                      //use local transform values or global ones
+[SerializeField] bool smoothShake = true;                       //Smooth shaking or sharp
 ```
 ```csharp
 //Usage example
@@ -39,13 +39,13 @@ using Utils; //Library for using shaking
 using Utils; //Библиотека для испольования тряски
 ```
 ```csharp
-[SerializeField] private Transform objectTransform; //Объект тряски
-[SerializeField] private ShakeType shakeType; //Тип тряски, вращение или позиция или сразу позиция и вращение (ShakeType { Position, Rotation, PositionAndRotation })
-[SerializeField] Vector3 shakeValues = new Vector3(5, 5, 5); //Значения для тряски
-[SerializeField] float shakeDuration = 1f; //Время тряски
-[SerializeField] int shakeCount = 10; //Число колебаний
-[SerializeField] private bool localVector; //использовать локальные значения transform или мировые
-[SerializeField] bool smoothShake = true; //Плавная тряска или резкая
+[SerializeField] private Transform objectTransform;            //Объект тряски
+[SerializeField] private ShakeType shakeType;                  //Тип тряски, вращение или позиция или сразу позиция и вращение (ShakeType { Position, Rotation, PositionAndRotation })
+[SerializeField] Vector3 shakeValues = new Vector3(5, 5, 5);   //Значения для тряски
+[SerializeField] float shakeDuration = 1f;                     //Время тряски
+[SerializeField] int shakeCount = 10;                          //Число колебаний
+[SerializeField] private bool localVector;                     //использовать локальные значения transform или мировые
+[SerializeField] bool smoothShake = true;                      //Плавная тряска или резкая
 ```
 ```csharp
 //Пример использования
