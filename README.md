@@ -1,6 +1,7 @@
 
 <h1 align="center">ENGLISH</a> 
 <h3 align="center">Script for shaking an object with different settings</h3>
+<h3 align="center">The script will be created automatically on the stage if it is called.</h3>
 
 ```csharp
 using Utils; //Library for using shaking
@@ -34,6 +35,7 @@ using Utils; //Library for using shaking
 
 <h1 align="center">РУССКИЙ</a> 
 <h3 align="center">Скрипт для тряски объекта с разными настройками</h3>
+<h3 align="center">Скрипт автоматически создаться на сцене если его вызовут</h3>
 
 ```csharp
 using Utils; //Библиотека для испольования тряски
